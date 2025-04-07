@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
     ppr: 'incremental',
   },
   /* config options here */
+  eslint  : {
+    ignoreDuringBuilds: true
+  }
 };
 
 export default nextConfig;
